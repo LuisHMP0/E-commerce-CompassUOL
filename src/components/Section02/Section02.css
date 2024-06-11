@@ -1,0 +1,30 @@
+.sec02 {
+    height: 100px;
+    background-color: #F9F1E7;
+}
+
+.filtro-container {
+    margin-left: 30px;
+}
+
+.imgFilter {
+    height: 19px;
+    width: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.filter {
+    display: flex;
+    padding: 35px 0 0 83px;
+}
+
+.filter p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 13px;
+}
+
+.opcoes-container {
+    padding-left: 83px;
+}

@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import './Section02.css'
 
@@ -28,8 +27,18 @@ const Section02 = () => {
             </div>
           )}
 
+            <div className='results'> 
+                <img className='lineImg' src="src/components/Section02/img/Line.png" alt="Line" />
+                <p> Showing 1–16 of 32 results </p>
+            </div>
+
         </div>
 
+        
+        <div className='input'> 
+            <p> Show </p>
+            <input type='number' id='inputResult' className='inputResult'/> 
+        </div>
       </section>
     );}
 

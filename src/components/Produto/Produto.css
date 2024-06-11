@@ -1,0 +1,48 @@
+.produto {
+    width: 285px;
+    height: 446px;
+    margin: 17px 25px 17px 25px;
+}
+
+.produto img {
+    width: 285px;
+    height: 301px;
+    display: block;
+}
+
+.descricao {
+    width: 285px;
+    height: 145px;
+    background-color: #F4F5F7;
+}
+
+.descricao h1, .descricao p {
+    padding-left: 16px;
+}
+
+.descricao h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.descricao .subtitulo {
+    font-size: 16px;
+    font-weight: 500;
+    color: #898989;
+}
+
+.preco {
+    display: flex;
+}
+
+.preco .p1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.preco .p2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #B0B0B0;
+    text-decoration: line-through;
+}

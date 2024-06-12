@@ -1,4 +1,5 @@
 .produto {
+    position: relative;
     width: 285px;
     height: 446px;
     margin: 17px 25px 17px 25px;
@@ -47,4 +48,42 @@
     font-weight: 400;
     color: #B0B0B0;
     text-decoration: line-through;
+}
+
+.promocao {
+    position: absolute;
+    top: 30px; 
+    right: 20px; 
+    width: 48px;
+    height: 48px;
+    background-color: #E97171;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promocao p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.novoProduto {
+    position: absolute;
+    top: 30px; 
+    right: 20px; 
+    width: 48px;
+    height: 48px;
+    background-color: #2EC1AC;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.novoProduto p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
 }

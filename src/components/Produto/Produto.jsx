@@ -3,6 +3,7 @@ import './Produto.css'
 
 const Produto = (props) => {
   return (
+    <>
     <div className='produto'>
         <img src={props.src} alt={props.alt} />
         <div className='descricao'>
@@ -13,8 +14,22 @@ const Produto = (props) => {
                 <p className='p2'>{props.precoRiscado} </p>
             </div>
         </div>
+
+        {props.desconto && (
+          <div className='promocao'>
+          <p> {props.desconto} </p>
+          </div>
+        )}
+      
+        {props.novoProduto && (
+          <div className='novoProduto'>
+          <p> New </p>
+          </div>
+        )}
+
     </div>
-  )
+    </>
+  );
 }
 
 export default Produto

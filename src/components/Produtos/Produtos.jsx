@@ -18,6 +18,7 @@ const Produtos = () => {
             subtitulo={'Stylish cafe chair'}
             preco={'2.500.000'}
             precoRiscado={'Rp 3.500.000'}
+            desconto={'-30%'}
         />
         <Produto
             src={LeviosaIMG}
@@ -31,12 +32,14 @@ const Produtos = () => {
             subtitulo={'Luxury big sofa'}
             preco={'7.000.000'}
             precoRiscado={'Rp 14.000.000'}
+            desconto={'-50%'}
         />
         <Produto 
             src={RespiraIMG}
             titulo={'Respira'}
             subtitulo={'Outdoor bar table and stool'}
             preco={'500.000'}
+            novoProduto={true}
         />
     </div>
     <div className='produtos'>
@@ -46,6 +49,7 @@ const Produtos = () => {
             subtitulo={'Stylish cafe chair'}
             preco={'2.500.000'}
             precoRiscado={'Rp 3.500.000'}
+            desconto={'-30%'}
         />
         <Produto
             src={LeviosaIMG}
@@ -59,12 +63,14 @@ const Produtos = () => {
             subtitulo={'Luxury big sofa'}
             preco={'7.000.000'}
             precoRiscado={'Rp 14.000.000'}
+            desconto={'-50%'}
         />
         <Produto 
             src={RespiraIMG}
             titulo={'Respira'}
             subtitulo={'Outdoor bar table and stool'}
             preco={'500.000'}
+            novoProduto={true}
         />
     </div>
     <div className='produtos'>
@@ -74,6 +80,7 @@ const Produtos = () => {
             subtitulo={'Stylish cafe chair'}
             preco={'2.500.000'}
             precoRiscado={'Rp 3.500.000'}
+            desconto={'-30%'}
         />
         <Produto
             src={LeviosaIMG}
@@ -87,12 +94,14 @@ const Produtos = () => {
             subtitulo={'Luxury big sofa'}
             preco={'7.000.000'}
             precoRiscado={'Rp 14.000.000'}
+            desconto={'-50%'}
         />
         <Produto 
             src={RespiraIMG}
             titulo={'Respira'}
             subtitulo={'Outdoor bar table and stool'}
             preco={'500.000'}
+            novoProduto={true}
         />
     </div>
     <div className='produtos'>
@@ -102,6 +111,7 @@ const Produtos = () => {
             subtitulo={'Stylish cafe chair'}
             preco={'2.500.000'}
             precoRiscado={'Rp 3.500.000'}
+            desconto={'-30%'}
         />
         <Produto
             src={LeviosaIMG}
@@ -115,12 +125,14 @@ const Produtos = () => {
             subtitulo={'Luxury big sofa'}
             preco={'7.000.000'}
             precoRiscado={'Rp 14.000.000'}
+            desconto={'-50%'}
         />
         <Produto 
             src={RespiraIMG}
             titulo={'Respira'}
             subtitulo={'Outdoor bar table and stool'}
             preco={'500.000'}
+            novoProduto={true}
         />
     </div>
     <div className='produtos'>

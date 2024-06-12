@@ -39,8 +39,94 @@ const Produtos = () => {
             preco={'500.000'}
         />
     </div>
+    <div className='produtos'>
+        <Produto
+            src={SytherineIMG}
+            titulo={'Syltherine'}
+            subtitulo={'Stylish cafe chair'}
+            preco={'2.500.000'}
+            precoRiscado={'Rp 3.500.000'}
+        />
+        <Produto
+            src={LeviosaIMG}
+            titulo={'Leviosa'}
+            subtitulo={'Stylish cafe chair'}
+            preco={'2.500.000'}
+        />
+        <Produto 
+            src={LolitoIMG}
+            titulo={'Lolito'}
+            subtitulo={'Luxury big sofa'}
+            preco={'7.000.000'}
+            precoRiscado={'Rp 14.000.000'}
+        />
+        <Produto 
+            src={RespiraIMG}
+            titulo={'Respira'}
+            subtitulo={'Outdoor bar table and stool'}
+            preco={'500.000'}
+        />
+    </div>
+    <div className='produtos'>
+        <Produto
+            src={SytherineIMG}
+            titulo={'Syltherine'}
+            subtitulo={'Stylish cafe chair'}
+            preco={'2.500.000'}
+            precoRiscado={'Rp 3.500.000'}
+        />
+        <Produto
+            src={LeviosaIMG}
+            titulo={'Leviosa'}
+            subtitulo={'Stylish cafe chair'}
+            preco={'2.500.000'}
+        />
+        <Produto 
+            src={LolitoIMG}
+            titulo={'Lolito'}
+            subtitulo={'Luxury big sofa'}
+            preco={'7.000.000'}
+            precoRiscado={'Rp 14.000.000'}
+        />
+        <Produto 
+            src={RespiraIMG}
+            titulo={'Respira'}
+            subtitulo={'Outdoor bar table and stool'}
+            preco={'500.000'}
+        />
+    </div>
+    <div className='produtos'>
+        <Produto
+            src={SytherineIMG}
+            titulo={'Syltherine'}
+            subtitulo={'Stylish cafe chair'}
+            preco={'2.500.000'}
+            precoRiscado={'Rp 3.500.000'}
+        />
+        <Produto
+            src={LeviosaIMG}
+            titulo={'Leviosa'}
+            subtitulo={'Stylish cafe chair'}
+            preco={'2.500.000'}
+        />
+        <Produto 
+            src={LolitoIMG}
+            titulo={'Lolito'}
+            subtitulo={'Luxury big sofa'}
+            preco={'7.000.000'}
+            precoRiscado={'Rp 14.000.000'}
+        />
+        <Produto 
+            src={RespiraIMG}
+            titulo={'Respira'}
+            subtitulo={'Outdoor bar table and stool'}
+            preco={'500.000'}
+        />
+    </div>
+    <div className='produtos'>
+        <Botoes />
+    </div>
     
-    <Botoes />
     </>
 
     

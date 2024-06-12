@@ -5,10 +5,12 @@ import SytherineIMG from './img/Syltherine.png'
 import LeviosaIMG from './img/Leviosa.png'
 import LolitoIMG from './img/Lolito.png'
 import RespiraIMG from './img/Respira.png'
+import Botoes from '../Botoes/Botoes'
 
 
 const Produtos = () => {
   return (
+    <>
     <div className='produtos'>
         <Produto
             src={SytherineIMG}
@@ -35,9 +37,12 @@ const Produtos = () => {
             titulo={'Respira'}
             subtitulo={'Outdoor bar table and stool'}
             preco={'500.000'}
-
         />
     </div>
+    
+    <Botoes />
+    </>
+
     
 
     

@@ -7,7 +7,7 @@ const Section02 = () => {
     const toggleOpcoes = () => {
       setMostrarOpcoes(!mostrarOpcoes);
     };
-  
+
     return (
       <section className='sec02'>
 
@@ -23,6 +23,7 @@ const Section02 = () => {
                 <select id="ordenacao">
                         <option value="nomeAZ">Nome (A - Z)</option>
                         <option value="precoDesc">Preço (Maior - Menor)</option>
+                        <option value="precoCres">Preço (Menor - Maior)</option>
                 </select>
             </div>
           )}
@@ -37,7 +38,7 @@ const Section02 = () => {
         
         <div className='input'> 
             <p> Show </p>
-            <input type='number' id='inputResult' className='inputResult'/> 
+            <input type='number' id='inputResult' className='inputResult' placeholder=''/> 
         </div>
       </section>
     );}

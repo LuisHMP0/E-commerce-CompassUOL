@@ -1,10 +1,10 @@
 import React from 'react'
 import './Produto.css'
 
-const Produto = ({src, alt}, props) => {
+const Produto = (props) => {
   return (
     <div className='produto'>
-        <img src={src} alt={alt} />
+        <img src={props.src} alt={props.alt} />
         <div className='descricao'>
             <h1> {props.titulo || 'TituloUndefined'} </h1>
             <p className='subtitulo'> {props.subtitulo || 'SubtituloUndefined'} </p>

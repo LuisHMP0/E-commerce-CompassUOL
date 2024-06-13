@@ -1,7 +1,33 @@
 import React from 'react'
 import './Footer.css'
+import { useState } from 'react'
+
 
 const Footer = () => {
+    const [email, setEmail] = useState('')
+    const [errorMessage, setErrorMessage] = useState('')
+  
+    const handleEmailChange = (event) => {
+      setEmail(event.target.value);
+    };
+    
+    {/* Validação regex */}
+    const validateEmail = (email) => {
+      // Regex pattern for validating an email
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(email);
+    };
+
+    const Submit = (event) => {
+        event.preventDefault();
+        if (validateEmail(email)) {
+            setErrorMessage('');
+            alert('Email is valid')
+        } else {
+            setErrorMessage('Email is not valid, please enter a valid email address.')
+        }
+    }
+    
   return (
     <footer>
         <section className='parteDeCima'>
@@ -29,9 +55,17 @@ const Footer = () => {
             <div className='newsletter'>
                 <h2>Newsletter</h2>
                 <div className='inputEmail'>
-                    <input type='email' name='email' id='email' className='email' placeholder='Enter Your Email Address'/>
-                    <button type='submit' className='submit'>SUBSCRIBE</button>
+                    <input 
+                    type='email' 
+                    name='email' 
+                    id='email' 
+                    className='email' 
+                    placeholder='Enter Your Email Address' 
+                    value={email} 
+                    onChange={handleEmailChange}/>
+                    <button type='submit' className='submit' onClick={Submit}> SUBSCRIBE </button>
                 </div>
+                {errorMessage && <p className='error'> {errorMessage} </p>}
             </div>
         </section>
         <p className='compass'> 2024 Compass UOL </p>

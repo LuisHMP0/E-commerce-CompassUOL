@@ -13,7 +13,6 @@ function App() {
     {/**/}
     <Header />
     <Section01 />
-    <Section02 />
     <Produtos />
     <Section03 />
     <Footer />

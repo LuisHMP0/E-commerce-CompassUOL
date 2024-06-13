@@ -1,11 +1,18 @@
 import React, { useState } from 'react';
 import './Section02.css'
 
-const Section02 = () => {
+const Section02 = ({onFiltroChange}) => {
     const [mostrarOpcoes, setMostrarOpcoes] = useState(false);
 
     const toggleOpcoes = () => {
       setMostrarOpcoes(!mostrarOpcoes);
+    };
+
+    {/* Filter*/}
+
+    const handleOrdenacaoChange = (e) => {
+      const novoFiltro = e.target.value;
+      onFiltroChange(novoFiltro);
     };
 
     return (
@@ -20,10 +27,10 @@ const Section02 = () => {
         
             {mostrarOpcoes && (
             <div className="opcoes-container">
-                <select id="ordenacao">
-                        <option value="nomeAZ">Nome (A - Z)</option>
-                        <option value="precoDesc">Preço (Maior - Menor)</option>
-                        <option value="precoCres">Preço (Menor - Maior)</option>
+                <select id="ordenacao" onChange={handleOrdenacaoChange}>
+                        <option value="nomeAZ">Name (A - Z)</option>
+                        <option value="precoDesc">Price (Bigger - Smaller)</option>
+                        <option value="precoCres">Price (Smaller - Bigger)</option>
                 </select>
             </div>
           )}

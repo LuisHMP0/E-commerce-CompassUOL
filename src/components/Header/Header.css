@@ -7,6 +7,23 @@ header {
     margin: 0 37.5px 0 37.5px;
 }
 
+@media(max-width: 1000px) {
+    .header {
+        display: block;
+        height: 200px;
+    }
+
+    .header .logo {
+        justify-content: center;
+    }
+
+    .header .nav1 ul, .header .nav2 ul {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+  }
+
 header .logo {
     display: flex;
     padding-top: 25px;

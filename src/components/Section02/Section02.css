@@ -5,6 +5,42 @@
     justify-content: space-between;
 }
 
+
+@media(max-width: 750px) {
+    .sec02 {
+        display: block;
+        height: 180px;
+    }
+
+    .sec02 .filtro-container {
+        margin: 0;
+    }
+
+    .filtro-container .filter  {
+        position: relative;
+        top: 40px;
+    }
+
+    .sec02 .input {
+        margin-left: 156px;
+    }
+
+    .sec02 .input p {
+        font-size: 16px;
+    }
+
+    .lineImg {
+        position: relative;
+        top: 43px;
+    }
+
+    .opcoes-container {
+        position: absolute;
+        top: 600px;
+        right: 220px;
+    }
+}
+
 .filtro-container {
     margin-left: 30px;
     display: flex;

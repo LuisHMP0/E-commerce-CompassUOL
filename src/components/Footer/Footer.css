@@ -2,6 +2,31 @@ footer {
     height: 505px;
 }
 
+@media(max-width: 750px) {
+    .parteDeCima {
+        align-items: center;
+        flex-direction: column;
+        font-size: 13px;
+    }
+
+    .footerDiv h1 {
+        text-align: center;
+    }
+
+    .help h2 {
+        text-align: center;
+    }
+
+    .help ul li {
+        text-align: center;
+    }
+
+    .newsletter h2 {
+        text-align: center;
+    }
+
+}
+
 footer .parteDeCima ul li {
     list-style-type: none;
     padding: 0 0 50px;

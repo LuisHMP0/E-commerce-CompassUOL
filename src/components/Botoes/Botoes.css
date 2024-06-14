@@ -13,6 +13,10 @@
     cursor: pointer;
 }
 
+.b01 {
+    background-color: #B88E2F;
+}
+
 .bNext {
     font-weight: 300;
     width: 98px;

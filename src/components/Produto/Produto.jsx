@@ -27,6 +27,27 @@ const Produto = (props) => {
           </div>
         )}
 
+        <section className='details'>
+            <button className='seeDetails'> See Details </button>
+            <div className='detailsDiv01'>
+
+              <div className='share'>
+                <img className='share' src="src/components/Produto/img/compartilhar.png" alt="share" />
+                <p>Share</p>
+              </div>
+
+              <div className='compare'>
+                <img className='compare' src="src/components/Produto/img/compare.png" alt="compare" />
+                <p>Compare</p>
+              </div>
+
+              <div className='like'>
+                <img className='like' src="src/components/Produto/img/like.png" alt="like" />
+                <p>Like</p>
+              </div>
+          </div>
+        </section>
+
     </div>
     </>
   );
